@@ -1,22 +1,22 @@
 @font-face{
-    font-family: 'Aileron', sans-serif;
+    font-family: 'Aileron-R', sans-serif;
     src: url('fonts/aileron-regular-webfont.woff2') format('woff2');
 
-    font-family: 'Aileron Thin', sans-serif;
+    font-family: 'Aileron-T', sans-serif;
     src: url('fonts/aileron-thin-webfont.woff2') format('woff2')
          url('fonts/aileron-thin-webfont.woff') format('woff');
 
 
-    font-family: 'Aileron Light', sans-serif;
+    font-family: 'Aileron-L', sans-serif;
     src: url('fonts/aileron-light-webfont.woff2') format('woff2')
          url('fonts/aileron-light-webfont.woff') format('woff');
 
 
-    font-family: 'Aileron Bold', sans-serif;
+    font-family: 'Aileron-B', sans-serif;
     src: url('fonts/aileron-bold-webfont.woff2') format('woff2')
          url('fonts/aileron-bold-webfont.woff') format('woff');
 
-    font-family: 'Aileron Heavy', sans-serif;
+    font-family: 'Aileron-H', sans-serif;
     src: url('fonts/aileron-heavy-webfont.woff2') format('woff2')
          url('fonts/aileron-heavy-webfont.woff') format('woff');
 }
@@ -39,7 +39,7 @@ nav{
     z-index: 997;
 }
 a{
-    font-family: 'Aileron Light', sans-serif;
+    font-family: 'Aileron-L', sans-serif;
     font-weight: normal;
     text-decoration: none;
     color: #474747;
@@ -49,7 +49,7 @@ a{
     z-index: 999;
 }
 p{
-    font-family: 'Aileron Light', sans-serif;
+    font-family: 'Aileron-L', sans-serif;
     font-size: 2rem;
     max-width: 70%;
     font-weight: normal;
@@ -122,7 +122,7 @@ img{
     user-select: none;
 }
 h1{
-    font-family: 'Aileron Heavy', sans-serif;
+    font-family: 'Aileron-H', sans-serif;
     font-size: 7rem;
     color: #121212;
     margin: 0;
@@ -131,11 +131,11 @@ h1{
 }
 i{
     font-style: normal;
-    font-family: 'Aileron Thin', sans-serif;
+    font-family: 'Aileron-T', sans-serif;
     font-weight: normal;
 }
 h2{
-    font-family: 'Aileron Light', sans-serif;
+    font-family: 'Aileron-L', sans-serif;
     margin: 0;
     color: #121212;
     font-size: 2.75rem;
