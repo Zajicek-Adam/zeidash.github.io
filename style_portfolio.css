@@ -1,18 +1,17 @@
+:root{
+  --thin: 100;
+  --light: 300;
+  --regular: 400;
+  --bold: 700;
+  --heavy: 900;
+}
 @font-face {
-  font-family: "Aileron", sans-serif;
-  src: url(aileron-regular-webfont.woff2);
-
-  font-family: "Aileron Thin", sans-serif;
-  src: url(aileron-thin-webfont.woff2);
-
-  font-family: "Aileron Light", sans-serif;
-  src: url(aileron-light-webfont.woff2);
-
-  font-family: "Aileron Bold", sans-serif;
-  src: url(aileron-bold-webfont.woff2);
-
-  font-family: "Aileron Heavy", sans-serif;
-  src: url(aileron-heavy-webfont.woff2);
+  font-family: "aileron", sans-serif;
+  src: url("fonts/aileron-regular-webfont.woff2") format("woff2"),
+    url("fonts/Aileron-Regular.otf") format("opentype"),
+    url("fonts/aileron-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 html {
   scroll-behavior: smooth;
@@ -40,8 +39,8 @@ nav > div {
   transition: opacity 400ms ease;
 }
 a {
-  font-family: "Aileron Light", sans-serif;
-  font-weight: normal;
+  font-family: "aileron", sans-serif;
+  font-weight: var(--light);
   text-decoration: none;
   color: #474747;
   font-size: 2.5rem;
