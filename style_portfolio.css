@@ -104,12 +104,7 @@ button > div {
 #calculator {
   background-image: linear-gradient(75deg, #313ab4, #602a95);
 } 
-button:hover {
-  transform: scale(1.05);
-}
-button:hover > div {
-  transform: scaleX(1.015);
-}
+
 @media only screen and (max-width: 1000px) {
   .container {
     margin-left: 0;
@@ -127,5 +122,13 @@ button:hover > div {
   main {
     position: relative;
     top: 150px;
+  }
+}
+@media (hover: hover) and (pointer: fine) {
+  button:hover {
+    transform: scale(1.05);
+  }
+  button:hover > div {
+    transform: scaleX(1.015);
   }
 }
