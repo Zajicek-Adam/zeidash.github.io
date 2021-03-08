@@ -34,7 +34,6 @@ nav {
   z-index: 997;
 }
 a {
-  font-family: "aileron", sans-serif;
   font-weight: var(--light);
   text-decoration: none;
   color: #474747;
@@ -44,7 +43,6 @@ a {
   z-index: 999;
 }
 p {
-  font-family: "aileron", sans-serif;
   font-weight: var(--light);
   font-size: 2rem;
   max-width: 70%;
@@ -117,7 +115,6 @@ img {
   user-select: none;
 }
 h1 {
-  font-family: "aileron", sans-serif;
   font-weight: var(--heavy);
   font-size: 7rem;
   color: #121212;
@@ -126,11 +123,9 @@ h1 {
 }
 i {
   font-style: normal;
-  font-family: "aileron", sans-serif;
   font-weight: var(--thin);
 }
 h2 {
-  font-family: "aileron", sans-serif;
   font-weight: var(--light);
   margin: 0;
   color: #121212;
