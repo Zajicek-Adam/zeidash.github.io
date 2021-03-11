@@ -1,6 +1,6 @@
 :root{
   --thin: 100;
-  --light: 300;
+  --light: 350;
   --regular: 400;
   --bold: 700;
   --heavy: 900;
@@ -35,11 +35,12 @@ nav {
 }
 a {
   font-weight: var(--light);
+  cursor: pointer;
   text-decoration: none;
   color: #474747;
   font-size: 2.5rem;
-  margin-left: 1%;
-  margin-right: 1%;
+  margin-left: 25px;
+  margin-right: 25px;
   z-index: 999;
 }
 p {
@@ -83,7 +84,6 @@ main {
   top: 100%;
   width: 100%;
   height: 100vh;
-  z-index: 3;
 }
 #second > div {
   display: flex;
@@ -116,7 +116,7 @@ img {
 }
 h1 {
   font-weight: var(--heavy);
-  font-size: 7rem;
+  font-size: 6.5rem;
   color: #121212;
   margin: 0;
   z-index: 2;
@@ -132,6 +132,7 @@ h2 {
   font-size: 2.75rem;
   z-index: 2;
 }
+
 @media only screen and (max-width: 1000px) {
   #second > div {
     width: 100%;
