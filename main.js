@@ -16,8 +16,11 @@ var card = document.querySelectorAll(".card");
 
 var contactContainer = document.getElementById("contact-form");
 var contact = document.getElementById("contact-text");
+var contactSec = document.getElementById("contact-second");
 var contactOff = document.getElementById("contact-button");
-var contactIsOn = false;
+
+contactContainer.style.transition = "all 900ms ease";
+contactSec.style.transition = "all 900ms ease";
 
 function handleTabletChange(e) {
   if (e.matches) {
@@ -50,7 +53,8 @@ burger.onclick = function () {
     telo.style.overflow = "hidden";
     content.style.opacity = "0";
     isToggled = true;
-  } else {
+  } 
+  else {
     one.classList.add("one-disabled");
     two.classList.add("two-disabled");
     three.classList.add("three-disabled");
@@ -65,15 +69,16 @@ burger.onclick = function () {
     isToggled = false;
   }
 };
+
 contact.onclick = function () {
-  if (contactIsOn == false) {
-    contactContainer.style.display = "flex";
-    contactContainer.style.opacity = 1;
-    contactContainer.style.backgroundColor = "rgba(255,255,255,0.3)";
-  }
-};
+  contactContainer.style.backgroundColor = "white";
+  contactContainer.style.opacity = "1";
+  contactSec.style.opacity = "1";
+  contactSec.style.display = "inline";
+}
 contactOff.onclick = function () {
-  contactContainer.style.display = "none";
-  contactContainer.style.opacity = 1;
-  contactContainer.style.backgroundColor = "rgba(255,255,255,0.3)";
+  contactContainer.style.backgroundColor = "transparent";
+  contactContainer.style.opacity = "0";
+  contactSec.style.opacity = "0";
+  contactSec.style.display = "none";  
 };
