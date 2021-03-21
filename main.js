@@ -21,6 +21,7 @@ var contactOff = document.getElementById("contact-button");
 
 contactContainer.style.transition = "all 900ms ease";
 contactSec.style.transition = "all 900ms ease";
+links.style.transition = "all 900ms ease";
 
 function handleTabletChange(e) {
   if (e.matches) {
@@ -71,11 +72,13 @@ burger.onclick = function () {
 };
 
 contact.onclick = function () {
+  contactContainer.style.zIndex = "300000000000000";
   contactContainer.style.backgroundColor = "white";
   contactContainer.style.opacity = "1";
-  contactContainer.style.zIndex = "3";
   contactSec.style.opacity = "1";
   contactSec.style.display = "inline";
+  links.style.opacity = "0";
+  links.style.display = "none";
 }
 contactOff.onclick = function () {
   contactContainer.style.backgroundColor = "transparent";
@@ -83,4 +86,6 @@ contactOff.onclick = function () {
   contactContainer.style.zIndex = "-1";
   contactSec.style.opacity = "0";
   contactSec.style.display = "none";  
+  links.style.opacity = "1";
+  links.style.display = "inline";
 };
