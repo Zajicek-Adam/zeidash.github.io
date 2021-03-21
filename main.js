@@ -73,12 +73,14 @@ burger.onclick = function () {
 contact.onclick = function () {
   contactContainer.style.backgroundColor = "white";
   contactContainer.style.opacity = "1";
+  contactContainer.style.zIndex = "3";
   contactSec.style.opacity = "1";
   contactSec.style.display = "inline";
 }
 contactOff.onclick = function () {
   contactContainer.style.backgroundColor = "transparent";
   contactContainer.style.opacity = "0";
+  contactContainer.style.zIndex = "-1";
   contactSec.style.opacity = "0";
   contactSec.style.display = "none";  
 };
