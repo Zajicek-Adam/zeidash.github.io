@@ -29,14 +29,15 @@ function handleTabletChange(e) {
     links.style.opacity = "0";
     links.style.visibility = "collapse";
     links.style.zIndex = "-5";
+    links.style.display = "flex";
   } else {
     links.style.opacity = "1";
     links.style.visibility = "visible";
     links.style.zIndex = "99999";
+    links.style.display = "inline";
     content.style.opacity = "1";
   }
 }
-
 mediaQuery.addListener(handleTabletChange);
 handleTabletChange(mediaQuery);
 
