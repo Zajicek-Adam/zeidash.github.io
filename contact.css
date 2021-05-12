@@ -88,5 +88,13 @@ span > button {
     border-radius: 0;
     display: flex;
     align-items: center;
+    justify-content: center;
+  }
+  #contact-second > #contact-off-span{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 35%;
   }
 }

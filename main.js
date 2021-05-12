@@ -77,7 +77,8 @@ contact.onclick = function () {
   contactContainer.style.backgroundColor = "white";
   contactContainer.style.opacity = "1";
   contactSec.style.opacity = "1";
-  contactSec.style.display = "inline";
+  contactSec.style.display = "flex";
+  contactSec.style.flexDirection = "column";
   links.style.opacity = "0";
   links.style.display = "none";
 }
@@ -89,4 +90,8 @@ contactOff.onclick = function () {
   contactSec.style.display = "none";  
   links.style.opacity = "1";
   links.style.display = "inline";
-};
+  if(mediaQuery.matches){
+    links.style.display = "flex";
+  }
+  isToggled = false;
+}
