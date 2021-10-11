@@ -1,21 +1,13 @@
 :root{
-  --thin: 100;
+  --thin: 200;
   --light: 350;
   --regular: 400;
   --bold: 700;
-  --heavy: 900;
-}
-@font-face {
-  font-family: "aileron", sans-serif;
-  src: url("fonts/Aileron-Regular.otf") format("opentype");
-  src: url("fonts/aileron-regular-webfont.woff2") format("woff2");
-  src: url("fonts/aileron-regular-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
+  --heavy: 800;
 }
 html {
   scroll-behavior: smooth;
-  font-family: "aileron", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: var(--regular);
 }
 body {
