@@ -97,4 +97,10 @@ span > button {
     align-items: flex-start;
     margin-top: 35%;
   }
+  #contact-form > #contact-second > div > a, #contact-form > #contact-second > div > p{
+    font-size: 1.4rem;
+  }
+  #contact-form > #contact-second > div > h3{
+    font-size: 2rem;
+  }
 }
